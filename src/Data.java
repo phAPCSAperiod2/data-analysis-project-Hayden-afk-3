@@ -1,30 +1,48 @@
 /**
- * Represents one row from your dataset.
- *
- * TODO:
- *  - Rename the class to match your dataset (e.g., Pokemon, StateData, CountryStat)
- *  - Add at least 3 private attributes based on your CSV columns
- *  - Write a constructor that initializes all attributes
- *  - Add getter methods for the attributes you need in your analysis
- *  - Override toString() to display the object's data
- *  - Add Javadoc comments for the class and all methods
+ * Represents one cereal from the dataset.
  */
 public class Data {
 
-    // TODO: Add at least 3 private attributes
-    // Example:
-    // private String name;
-    // private int population;
-    // private double value;
+    private String name;
+    private int calories;
+    private int sugars;
+    private double rating;
 
+    /**
+     * Constructor to initialize a Data object.
+     * 
+     * @param name cereal name
+     * @param calories number of calories
+     * @param sugars grams of sugar
+     * @param rating cereal rating
+     */
+    public Data(String name, int calories, int sugars, double rating) {
+        this.name = name;
+        this.calories = calories;
+        this.sugars = sugars;
+        this.rating = rating;
+    }
 
-    // TODO: Create a constructor that takes all attributes as parameters
+    public String getName() {
+        return name;
+    }
 
+    public int getCalories() {
+        return calories;
+    }
 
-    // TODO: Add getters for attributes you need
+    public int getSugars() {
+        return sugars;
+    }
 
-    // TODO: Add other data analysis methods
+    public double getRating() {
+        return rating;
+    }
 
-    // TODO: Override toString() to return a readable representation of your object
-
+    @Override
+    public String toString() {
+        return name + " | Calories: " + calories +
+               " | Sugars: " + sugars +
+               " | Rating: " + rating;
+    }
 }
