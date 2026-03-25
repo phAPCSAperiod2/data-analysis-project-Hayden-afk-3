@@ -66,10 +66,11 @@ UML_Diagram.png (or UML_Diagram.pdf)
 
 ## 🧩 Step 1 — Choose Your Dataset
 
-**Dataset Name:**  
-**Source / Link:**  
+**Dataset Name: Cereals**  
+**Source / Link: https://www.kaggle.com/datasets/crawford/80-cereals?resource=download**  
 
 **What this dataset contains (2–3 sentences):**  
+This dataset has information about cereals. It contains data like protein, calories, and sugars per serving.
 ____________________________________________________________________  
 ____________________________________________________________________  
 
@@ -80,6 +81,7 @@ ____________________________________________________________________
 Your guiding question should be something you can answer using your dataset.
 
 **My guiding question:**  
+What Cereal has the least calories per serving?
 ____________________________________________________________________  
 ____________________________________________________________________  
 
@@ -137,14 +139,15 @@ In `Main.java`, you must:
 You must write **at least two algorithms** to analyze your dataset.
 
 ### Required: Choose 2 or more algorithms
-- [ ] Minimum value of attribute  
-- [ ] Maximum value of attribute  
-- [ ] Average of attribute  
+- [X] Minimum value of attribute  
+- [X] Maximum value of attribute  
+- [X] Average of attribute  
 - [ ] Filter by category  
 - [ ] Count items matching a condition  
 
 **Algorithms I will implement:**
-
+^
+|
 1. __________________________________________  
 2. __________________________________________  
 
@@ -165,6 +168,7 @@ After analyzing your objects, print:
 - ✔ A clear answer to your guiding question  
 
 **My findings:**  
+Trix and Raisin Bran have 
 ____________________________________________________________________  
 ____________________________________________________________________  
 ____________________________________________________________________  
@@ -218,12 +222,7 @@ Write a short reflection (3–5 sentences):
 - How trustworthy are your insights?
 
 **My reflection:**  
-____________________________________________________________________  
-____________________________________________________________________  
-____________________________________________________________________  
-____________________________________________________________________  
-
----
+This dataset has some data-quality issues, such as using -1 instead of leaving values blank for certain nutrients like potassium, carbohydrates, and sugars, and using letter codes for manufacturers that require outside knowledge to interpret. The dataset could be biased because it only includes a limited set of mostly U.S. brand-name cereals and doesn’t represent all cereals or other breakfast foods. Incomplete or inaccurate values can distort calculations like averages and correlations, which could lead to wrong conclusions about things like which cereals are healthiest or how nutrients relate to the rating. 
 
 ## ⭐ Optional Challenges (Not Required but Fun!)
 
@@ -251,17 +250,17 @@ Allow the user to choose:
 
 ## ✅ Submission Checklist
 
-- [ ] Dataset selected
-- [ ] Guiding question written
-- [ ] Class created with ≥3 attributes
-- [ ] File reading implemented
-- [ ] ArrayList/array of objects created
-- [ ] At least 2 analysis algorithms implemented
-- [ ] Findings printed
-- [ ] Javadoc comments added
-- [ ] UML diagram included
-- [ ] Reflection completed
-- [ ] Code compiles & runs
+- [X] Dataset selected
+- [X] Guiding question written
+- [X] Class created with ≥3 attributes
+- [X] File reading implemented
+- [X] ArrayList/array of objects created
+- [X] At least 2 analysis algorithms implemented
+- [X] Findings printed
+- [?] Javadoc comments added
+- [?] UML diagram included
+- [X] Reflection completed
+- [X] Code compiles & runs
 
 ---
 
